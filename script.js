@@ -10,3 +10,26 @@ document.getElementById('Concatinat').onclick = function ()  {
     document.getElementById('orignalstatements').innerHTML = ` First Name => ${firstName} , Last Name => ${lastName}`;
     document.getElementById('output').innerHTML =  name
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.getElementById('Clear').onclick = function () {
+    document.getElementById('orignalstatements').innerHTML = ''
+}
+
+document.getElementById('Clean').onclick = function () {
+    document.getElementById('output').innerHTML = ''
+}
