@@ -26,8 +26,25 @@ document.getElementById('Ask-Name-From-User').onclick = function () {
 
 
 // writ a program for comparissin operator
+// document.getElementById('Comparison-operator').onclick = function () {
+//     alert("Enter numbers first number is greater is true our falus");
+//     let number1 = +prompt("Enter First Number");
+//     let number2 = +prompt("Enter Second Number");
+//     let Result = number1 >= number2;
+//     if (number1 >= number2) {
+//         document.getElementById('orignalstatements').innerHTML = `First number ${number1} and Second number ${number2} , ${number1} >= ${number2}`;
+//         document.getElementById('output').innerHTML = `Result is ${Result}`
+//     } else {
+//         document.getElementById('orignalstatements').innerHTML = `First number ${number1} and Second number ${number2} , ${number1} >= ${number2}`;
+//         document.getElementById('output').innerHTML = `Result is ${Result}`
+//     }
+// }
+ 
 
-document.getElementById('Comparison-operator').onclick = function name(params) {
+
+
+// write a program if else if
+document.getElementById('if-else-if').onclick = function name(params) {
     alert("Enter numbers to checks first number greater than equal or not ")
     let firstNumber = +prompt("Enter first number ");
     let secondNumber = +prompt("Enter second number ");
