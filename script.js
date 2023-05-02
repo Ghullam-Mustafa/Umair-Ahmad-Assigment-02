@@ -88,9 +88,9 @@ document.getElementById('Testing-set-of-condition').onclick = function () {
 
 document.getElementById('if-statement-nested').onclick = function () {
     let Age = +prompt("Enter your age");
-    
+    let Weight = 0
     if (Age >= 18) {
-            let Weight = +prompt("Enter your weight");
+             Weight = +prompt("Enter your weight");
             if (Weight <= 70) {
                 document.getElementById('orignalstatements').innerHTML = `Your age is this ${Age} and your weight is this ${Weight}`
             document.getElementById('output').innerHTML = `You're a smart man`
@@ -100,8 +100,23 @@ document.getElementById('if-statement-nested').onclick = function () {
              document.getElementById('output').innerHTML = `You're a fat guay`
         }
     }
-    else{ document.getElementById('orignalstatements').innerHTML = `Your age is this ${Age} `
+    else{ document.getElementById('orignalstatements').innerHTML = `Your age is this ${Age} and your weight is this ${Weight}`
     document.getElementById('output').innerHTML = `You're a baby`}
+}
+
+
+// write a programme to login user
+document.getElementById('Login').onclick = function () {
+    let email = "anything@gmail.com"
+    let password = "123"
+    let userEmail = prompt("Enter user email")
+    let userPassword = prompt("Enter user password")
+    if (email === userEmail && password === userPassword) {    
+         alert("Welcome to user")
+    }
+    else{
+       alert("incorrect password") 
+    }
 }
 
 
@@ -125,4 +140,10 @@ document.getElementById('Clear').onclick = function () {
 
 document.getElementById('Clean').onclick = function () {
     document.getElementById('output').innerHTML = ''
+}
+
+
+// write a program reset-password 
+document.getElementById('reset-password').onclick = function () {
+    alert("email `anything@gmail.com and password '123' ")
 }
