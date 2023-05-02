@@ -64,6 +64,46 @@ document.getElementById('if-else-if').onclick = function name(params) {
 }
 
 
+//  write a program Testing-set-of-condition
+
+document.getElementById('Testing-set-of-condition').onclick = function () {
+    let age = +prompt("Enter your age");
+    let weight = +prompt("Enter your weight")
+    if (age >= 18 && weight <= 70) {
+        document.getElementById('orignalstatements').innerHTML = `Your age is this ${age} and your weight is this ${weight}`
+        document.getElementById('output').innerHTML = `You're a smart man`
+    }
+    else if (age >= 18 && weight >= 70) {
+        document.getElementById('orignalstatements').innerHTML = `Your age is this ${age} and your weight is this ${weight}`
+        document.getElementById('output').innerHTML = `You're a fat guay` 
+    }
+    else{
+        document.getElementById('orignalstatements').innerHTML = `Your age is this ${age} and your weight is this ${weight}`
+        document.getElementById('output').innerHTML = `You're a baby`
+    }
+}
+
+
+// write a js programe if-statement-nested
+
+document.getElementById('if-statement-nested').onclick = function () {
+    let Age = +prompt("Enter your age");
+    
+    if (Age >= 18) {
+            let Weight = +prompt("Enter your weight");
+            if (Weight <= 70) {
+                document.getElementById('orignalstatements').innerHTML = `Your age is this ${Age} and your weight is this ${Weight}`
+            document.getElementById('output').innerHTML = `You're a smart man`
+            }
+        else{
+            document.getElementById('orignalstatements').innerHTML = `Your age is this ${Age} and your weight is this ${Weight}`
+             document.getElementById('output').innerHTML = `You're a fat guay`
+        }
+    }
+    else{ document.getElementById('orignalstatements').innerHTML = `Your age is this ${Age} `
+    document.getElementById('output').innerHTML = `You're a baby`}
+}
+
 
 
 
