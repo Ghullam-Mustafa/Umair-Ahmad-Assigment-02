@@ -26,19 +26,19 @@ document.getElementById('Ask-Name-From-User').onclick = function () {
 
 
 // writ a program for comparissin operator
-// document.getElementById('Comparison-operator').onclick = function () {
-//     alert("Enter numbers first number is greater is true our falus");
-//     let number1 = +prompt("Enter First Number");
-//     let number2 = +prompt("Enter Second Number");
-//     let Result = number1 >= number2;
-//     if (number1 >= number2) {
-//         document.getElementById('orignalstatements').innerHTML = `First number ${number1} and Second number ${number2} , ${number1} >= ${number2}`;
-//         document.getElementById('output').innerHTML = `Result is ${Result}`
-//     } else {
-//         document.getElementById('orignalstatements').innerHTML = `First number ${number1} and Second number ${number2} , ${number1} >= ${number2}`;
-//         document.getElementById('output').innerHTML = `Result is ${Result}`
-//     }
-// }
+document.getElementById('Comparison-operator').onclick = function () {
+    alert("Enter numbers first number is greater is true our falus");
+    let number1 = +prompt("Enter First Number");
+    let number2 = +prompt("Enter Second Number");
+    let Result = number1 >= number2;
+    if (number1 >= number2) {
+        document.getElementById('orignalstatements').innerHTML = `First number ${number1} and Second number ${number2} , ${number1} >= ${number2}`;
+        document.getElementById('output').innerHTML = `Result is ${Result}`
+    } else {
+        document.getElementById('orignalstatements').innerHTML = `First number ${number1} and Second number ${number2} , ${number1} >= ${number2}`;
+        document.getElementById('output').innerHTML = `Result is ${Result}`
+    }
+}
  
 
 
